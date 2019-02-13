@@ -1,7 +1,6 @@
 import csv
 from datetime import datetime
 
-
 def encontraMaior(coluna):
     aux = 0
     for linha in coluna:
@@ -20,7 +19,6 @@ fim = datetime.now()
 print fim
 tempo = str((fim-inicio))[8:14] + ' Mircrosegundos'
 print tempo
-
 
 arquivo2 = open('resposta-dataset-2-e.txt', 'w')
 arquivo2.writelines(str(maiorValor))
